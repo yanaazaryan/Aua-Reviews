@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/yanaazaryan/Aua-Reviews/static/css/main.e445c183.css",
+    "main.js": "/yanaazaryan/Aua-Reviews/static/js/main.607ce216.js",
+    "static/js/787.2e60c737.chunk.js": "/yanaazaryan/Aua-Reviews/static/js/787.2e60c737.chunk.js",
+    "static/media/headerBackground.png": "/yanaazaryan/Aua-Reviews/static/media/headerBackground.9270397822803e132b8c.png",
+    "static/media/pen.svg": "/yanaazaryan/Aua-Reviews/static/media/pen.511d68c11abb779b3a74d674b041c75a.svg",
+    "static/media/review.svg": "/yanaazaryan/Aua-Reviews/static/media/review.9e563f0e6b0b53603d684d72c0696107.svg",
+    "static/media/info.svg": "/yanaazaryan/Aua-Reviews/static/media/info.a95dd4f2ef6f6b91f575da4fcabe302e.svg",
+    "index.html": "/yanaazaryan/Aua-Reviews/index.html",
+    "main.e445c183.css.map": "/yanaazaryan/Aua-Reviews/static/css/main.e445c183.css.map",
+    "main.607ce216.js.map": "/yanaazaryan/Aua-Reviews/static/js/main.607ce216.js.map",
+    "787.2e60c737.chunk.js.map": "/yanaazaryan/Aua-Reviews/static/js/787.2e60c737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e445c183.css",
+    "static/js/main.607ce216.js"
+  ]
+}
