@@ -1,0 +1,48 @@
+.footer {
+    background-color: #00253b;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: fit-content;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    width: 40%;
+
+    a {
+        margin: 0 5px;
+        text-decoration: none;
+    }
+
+    p {
+        color: #b1cde5;
+        cursor: pointer;
+        margin: 22px;
+    }
+
+    p:hover {
+        transform: translateX(-15px);
+    }
+}
+
+.rights {
+    color: rgb(213, 213, 213);
+    font-size: 13px;
+    margin: auto 0;
+    width: 40%;
+}
+
+@media screen and (max-width: 780px) { 
+    .menu {
+        display: block;
+        width: 10%;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
