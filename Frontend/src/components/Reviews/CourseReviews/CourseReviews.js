@@ -45,8 +45,8 @@ export const CourseReviews = () => {
           <div className={style.body}>
               <div className={style.bodyLeft}>
                   <h2>Instructor: {course.instructor}</h2>
-                  <h2>Instructor: {course.clusters}</h2>
-                  <h2>Instructor: {course.credits}</h2>
+                  <h2>Clusters: {course.clusters}</h2>
+                  <h2>Credits: {course.credits}</h2>
                   <h2>Rating: {course.ratingCount} ratings</h2>
                   <div className={style.courseRating}>
                       <p>{course.rating.toFixed(1)}</p>

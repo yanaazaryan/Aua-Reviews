@@ -10,21 +10,21 @@ import {
 export const SocialMedia = () => {
   return (
     <div className={style.socialMedia}>
-        <a href="https://www.facebook.com/learnbuildteach/" 
+        <a href="https://www.facebook.com/" 
           target={"_blank"}
           className={style.facebook}
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="https://www.twitter.com/jamesqquick" 
+        <a href="https://www.twitter.com/" 
           target={"_blank"}
           className={style.twitter}
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://www.instagram.com/learnbuildteach"
+        <a href="https://www.instagram.com/"
           target={"_blank"}
           className={style.instagram} 
           rel="noreferrer"

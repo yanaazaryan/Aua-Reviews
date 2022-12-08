@@ -48,13 +48,15 @@ export const InstructorReviews = () => {
         <div className={style.bodyWrapper}>
           <div className={style.nameContainer}>
             <h1 className={style.heading}>{instructor.name}</h1>
-            <a href={instructor.linkedin} 
-              target={"_blank"}
-              className={style.linkedin}
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            { instructor.linkedin && 
+              <a href={instructor.linkedin} 
+                target={"_blank"}
+                className={style.linkedin}
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            }
           </div>
           <div className={style.body}>
               <div className={style.bodyLeft}>
@@ -62,7 +64,7 @@ export const InstructorReviews = () => {
                   <div className={style.instructorRating}>
                       <p>{instructor.rating.toFixed(1)}</p>
                   </div>
-                  <h2>Courses Thought</h2>
+                  <h2>Courses Taught</h2>
                   <div className={style.coursesThought}>
                       {instructor.courses.map((course) => (
                         <p>{course}</p>
